@@ -116,8 +116,20 @@ body {
   color: var(--accent-color);
 }
 .contacts-item {
+  color: var(--secondary-text-color);
 }
-
+.link-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--accent-color);
+}
+.contacts-item .link {
+  display: flex;
+  align-items: center;
+}
 /*------------------HERO------------------*/
 
 .hero {
@@ -133,6 +145,10 @@ body {
   background-position: center;
   background-size: cover;
   flex-grow: 1;
+  min-height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title {
   font-weight: 900;
@@ -443,7 +459,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: tomato;
+  background: rgba(255, 255, 255, 0.1);
 }
 .join-icon {
   fill: var(--first-background-color);
@@ -456,5 +472,12 @@ body {
   margin-left: 70px;
 }
 .footer-container {
-  width: 200px;
+  display: flex;
+}
+.join-item + .join-item {
+  margin-left: 10px;
+}
+.join-link:hover,
+.join-link:focus {
+  background-color: var(--accent-color);
 }
