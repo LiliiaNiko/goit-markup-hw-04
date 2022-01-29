@@ -445,6 +445,7 @@ body {
   display: block;
 }
 .join-title {
+  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -470,6 +471,7 @@ body {
 }
 .join-section {
   margin-left: 70px;
+  padding-top: 12px;
 }
 .footer-container {
   display: flex;
