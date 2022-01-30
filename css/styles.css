@@ -315,7 +315,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.clients-item {
+.clients-container {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -327,8 +327,8 @@ body {
 .clients-icon {
   fill: currentColor;
 }
-.clients-item:hover,
-.clients-item:focus {
+.clients-container:hover,
+.clients-container:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
@@ -354,8 +354,8 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-item a:hover,
+.portfolio-item a:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
